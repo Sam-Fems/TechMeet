@@ -1,8 +1,9 @@
 import React from 'react'
+import newsSideBar from '../sidebars/newsSideBar'
 
 const News = () => {
   return (
-    <div>News</div>
+    <newsSideBar />
   )
 }
 
