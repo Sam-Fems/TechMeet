@@ -14,7 +14,7 @@ const App = () => {
       <div className="flex flex-col min-h-screen">
         <Navbar />
 
-        <main className="flex-grow px-4 py-6 max-w-5xl mx-auto">
+        <main>
           <Routes>
             <Route path="/" element={<Home />} />
 

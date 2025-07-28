@@ -1,10 +1,10 @@
 import React from 'react'
-import communitySideBar from '../sidebars/communitySideBar'
+import CommunityBar from '../sidebars/communitySideBar'
 
 const Community = () => {
   return (
     <>
-      <communitySideBar />
+      <CommunityBar />
     </>
   )
 }

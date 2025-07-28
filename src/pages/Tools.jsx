@@ -1,8 +1,9 @@
 import React from 'react'
+import ToolsBar from '../sidebars/toolsSideBar'
 
 const Tools = () => {
   return (
-    <div>Tools</div>
+    <ToolsBar />
   )
 }
 

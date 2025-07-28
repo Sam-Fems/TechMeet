@@ -25,7 +25,7 @@ const benefits = [
 
 const WhyJoin = () => {
   return (
-    <section className="my-16">
+    <section className="my-16 flex-grow px-4 py-6 mx-auto">
       <h2 className="text-3xl font-bold text-center mb-10 text-gray-50">Why Join <span className='text-blue-400'>TechMeet?</span></h2>
       <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4">
         {benefits.map((item, index) => (

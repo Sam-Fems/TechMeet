@@ -8,7 +8,7 @@ const tools = [
 
 const FeaturedTools = () => {
   return (
-    <section className="py-12">
+    <section className="py-12 flex-grow px-4 mx-auto">
       <h2 className="text-2xl md:text-3xl font-bold mb-6 text-center text-blue-400">🧰 Featured Tools</h2>
       <div className="grid md:grid-cols-3 gap-6">
         {tools.map((tool, index) => (

@@ -23,7 +23,7 @@ const mockThreads = [
 
 const TrendingThreads = () => {
   return (
-    <section className="my-16">
+    <section className="my-16 flex-grow px-4 py-6 mx-auto">
       <div className="flex justify-between items-center mb-6">
         <h2 className="text-3xl font-bold text-blue-400">🔥 Trending Threads</h2>
         <Link
